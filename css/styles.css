@@ -4,19 +4,15 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* body {
-  margin: 60px auto;
-  max-width: 800px;
-} */
 body {
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 50px;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
@@ -25,6 +21,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin-top: 85px;
 }
 
 h3 {
@@ -45,6 +42,7 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  padding: 0 35px;
 }
 
 .navigation-links a {
@@ -91,4 +89,23 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  img {
+    display: none;
+  }
+  a {
+    display: block;
+  }
 }
